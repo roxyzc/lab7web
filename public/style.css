@@ -1,0 +1,142 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.container {
+    width: 1000px;
+    position: relative;
+    overflow-x: hidden;
+    margin:  0 auto;
+    box-shadow: 0 0 20px #979797;
+}
+
+.header{
+    padding: 10px;
+    opacity: .5;
+}
+
+.active {
+    background-color: #084d9c;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #3684de;
+}
+
+.navbar a{
+    color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: 550;
+}
+
+.navbar a:hover{
+    background-color:#084d9c;
+}
+
+.hero{
+    width: 70%;
+    padding: 20px;
+    text-align: justify;
+}
+
+.hero h1, .hero p{
+    margin: 10px 0;
+}
+
+.hero button{
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background-color: #3684de;
+    padding: 10px 20px;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.hero button:hover{
+    background-color: #084d9c;
+    cursor: pointer;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.wrapper .sidebar{
+    width: 30%;
+    margin: 10px;
+}
+
+.wrapper .sidebar .link{
+    width: 100%;
+    padding: 10px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper .sidebar .link a{
+    border: 1px solid rgba(100, 100, 100, 0.479);
+    padding: 8px;
+    color: black;
+}
+
+.wrapper .sidebar .link a:hover{
+    background-color: #cecece;
+}
+
+.wrapper .sidebar .link h3{
+    padding: 10px;
+    color: white;
+    background-color: #3684de;    
+}
+
+.wrapper .sidebar .text {
+    padding: 10px 20px 20px 20px;
+}
+
+.wrapper .sidebar .text .coba{
+    background-color: aliceblue;
+    border: 1px solid rgba(100, 100, 100, 0.479);
+}
+
+.wrapper .sidebar .text .coba h3{
+    padding: 10px;
+    color: white;
+    background-color: #3684de;    
+}
+
+
+.wrapper .sidebar .text .coba p{ 
+    color: black;
+    padding: 10px;
+}
+
+footer{
+    background-color:  #000;
+    padding: 15px 20px;
+    color: white;
+}
+
+footer p a {
+    color: white;
+}
+
+footer p a:hover{
+    color: rgb(169, 219, 252);
+    cursor: pointer;
+}
